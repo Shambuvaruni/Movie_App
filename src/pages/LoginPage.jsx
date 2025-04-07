@@ -13,7 +13,7 @@ function LoginPage() {
   return (
     <div className="login-wrapper">
       <Container className="login-container">
-        <h2 className="login-title">Login</h2>
+        <h2 className="login-title">Demo Login</h2>
         <Form onSubmit={handleLogin}>
           <Form.Group className="login-email-group mb-3">
             <Form.Label>Email address</Form.Label>
@@ -34,13 +34,12 @@ function LoginPage() {
               outline: 'none',
               boxShadow: 'none'
             }}
-            onMouseDown={(e) => e.preventDefault()}
-            onMouseOver={(e) => (e.target.style.backgroundColor = '#cc0000')}
-            onMouseOut={(e) => (e.target.style.backgroundColor = 'red')}
-            onFocus={(e) => e.target.style.boxShadow = 'none'}
           >
             Login
           </Button>
+          <p style={{ fontSize: "0.8rem", color: "gray", marginTop: "1rem" }}>
+  This is a demo login page for a movie app clone project. No real credentials are collected.
+</p>
 
         </Form>
       </Container>

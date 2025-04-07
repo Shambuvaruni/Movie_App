@@ -110,7 +110,7 @@ function DashboardPage() {
       <AppNavbar />
       <div
         style={{
-          background: "linear-gradient(to bottom, black, red)",
+          background: "linear-gradient(to bottom, black, rgb(200, 0, 93))",
           minHeight: "100vh",
           paddingTop: "2rem",
           paddingBottom: "2rem",

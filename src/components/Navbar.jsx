@@ -14,7 +14,7 @@ function AppNavbar() {
             style={{
               fontFamily: "'Bebas Neue', sans-serif",
               fontSize: "2rem",
-              color: "red",
+              color: "rgb(200, 0, 93)",
               letterSpacing: "1px",
             }}
           >
