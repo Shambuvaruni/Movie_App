@@ -18,7 +18,7 @@ function AppNavbar() {
               letterSpacing: "1px",
             }}
           >
-            Netflix Clone
+            Movie App
           </Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link
