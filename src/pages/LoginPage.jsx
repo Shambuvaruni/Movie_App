@@ -25,9 +25,23 @@ function LoginPage() {
             <Form.Control type="password" placeholder=" Enter password" required />
           </Form.Group>
   
-          <Button variant="primary" type="submit" className="login-button">
+          <Button
+            type="submit"
+            className="login-button text-white px-4 py-2"
+            style={{
+              backgroundColor: '#d9534f', // red shade like Netflix
+              border: 'none',
+              outline: 'none',
+              boxShadow: 'none'
+            }}
+            onMouseDown={(e) => e.preventDefault()}
+            onMouseOver={(e) => (e.target.style.backgroundColor = '#cc0000')}
+            onMouseOut={(e) => (e.target.style.backgroundColor = 'red')}
+            onFocus={(e) => e.target.style.boxShadow = 'none'}
+          >
             Login
           </Button>
+
         </Form>
       </Container>
     </div>
